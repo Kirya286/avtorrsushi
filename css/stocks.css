@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url(../img/UMZuKsy-ql0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.logo{
+    width: 350px;
+    height: 180px;
+    margin-top: 20px;
+    border-left: 2px yellow solid;
+    border-right: 2px red solid;
+    margin-bottom: 5px;
+    transition: ease;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    cursor: pointer;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    letter-spacing: 2px;
+    
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    text-indent: 0px;
+    transition: ease;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s  linear;
+    -webkit-transition:all 1s   linear;
+}
+nav a:hover{
+    color:yellow;
+}
+.font1{
+    color: yellow;
+}
+.font2{
+    color: red;
+}
+.a-2:hover{
+    color: red;
+}
+.a-1:hover{
+    color: white;
+}
+.stockss{
+    color: red;
+    font-weight: 900;
+}
+.sushi{
+    width: 250px;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-indent: 0px;
+    transition: ease;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    cursor: pointer;
+}
+.sushi:hover{
+    border-top: 2px yellow solid;
+    border-right: 2px red solid;
+    border-bottom: 2px red solid;
+    border-left: 2px yellow solid;
+}
+.sushi-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+}
+.submit{
+    color: black;
+}
+div#tekst_sverhu_kartinki{
+    position: relative;
+}
+.tekst_sverhu_kartinki{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-transform: uppercase;
+    color: white;
+    width: 350px;
+    background: #00000094;
+    padding: 10px;
+    text-align: center;
+}
+.reklama{
+    width: 550px;
+    height: 500px;
+}
+.button{
+    color: black;
+}
+.submit{
+    color: black;
+}
+.hr1{
+    border: none;
+    color: yellow;
+    background-color: yellow;
+    height: 2px;
+}
+.hr2{
+    border: none;
+    color: red;
+    background-color: red;
+    height: 2px;
+}
