@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    
 }
 body{
     background-image: url(../img/UMZuKsy-ql0.jpg);
@@ -79,10 +80,10 @@ nav a:hover{
     color: black;
 }
 
-.font1{
+span{
     color: yellow;
 }
-.font2{
+.span-sushi{
     color: red;
 }
 .a-2:hover{
